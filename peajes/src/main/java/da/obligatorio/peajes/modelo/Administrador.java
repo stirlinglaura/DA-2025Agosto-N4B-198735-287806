@@ -1,12 +1,13 @@
 package da.obligatorio.peajes.modelo;
 
-import java.util.List;
+import java.util.ArrayList;
+
 
 public class Administrador {
     public String nombre;
     public String contrasenia;
     public String cedula;
-    public List<Estado> estados;
+    public ArrayList<Estado> estados;
 
     public Administrador(String nombre, String contrasenia,String cedula) {
         this.nombre = nombre;
