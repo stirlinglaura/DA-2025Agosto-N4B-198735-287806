@@ -2,7 +2,7 @@
  * Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
  * Click nbfs://nbhost/SystemFileSystem/Templates/Classes/Class.java to edit this template
  */
-package da.obligatorio.peajes;
+package da.obligatorio.peajes.controlador;
 
 import java.util.ArrayList;
 import java.util.List;
@@ -38,14 +38,13 @@ public class Respuesta {
     public void setParametro(Object parametro) {
         this.parametro = parametro;
     }
-    
-    public static List<Respuesta> lista(Respuesta... respuestas){
-         List<Respuesta> retorno = new ArrayList();
-         for(Respuesta r:respuestas){
-             retorno.add(r);
-         }
-         return retorno;
+
+    public static List<Respuesta> lista(Respuesta... respuestas) {
+        List<Respuesta> retorno = new ArrayList();
+        for (Respuesta r : respuestas) {
+            retorno.add(r);
+        }
+        return retorno;
     }
-    
-    
+
 }
